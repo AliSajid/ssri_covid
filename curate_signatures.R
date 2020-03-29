@@ -19,6 +19,6 @@ IL6ST <- read_tsv("signature_data/IL6-Signatures.tsv") %>%
   filter(TargetGene == "IL6ST", is_exemplar == 1, CellLine %in% common_cell_lines)
 
 drugs <- bind_rows(fluoxetine, escitalopram, sertraline)
-write_file(paste(drugs$SignatureId, collapse = "\n"), "drug_signature_ids")
+write_file(paste(drugs$SignatureId, collapse = "\n"), "drugs_signature_ids")
 targets <- bind_rows(IL6, IL6R, IL6ST)
 write_file(paste(targets$SignatureId, collapse = "\n"), "targets_signature_ids")
