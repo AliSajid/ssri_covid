@@ -56,4 +56,29 @@ for (target in targets_signatures) {
   write_tsv(consensus, consensus_fullname)
 }
 
+drug_results <- list.files("data/filtered/", pattern = "LINCSCP", full.names = TRUE)
+target_results <- list.files("data/filtered/", pattern = "LINCSKD", full.names = TRUE)
 
+genes <- c("IL6", "IL6R", "IL6ST")
+
+for (drug in drug_results) {
+  concordance <- get_concordant_signatures(drug, library = "LIB_6") %>% 
+    filter(treatmen %in% genes)
+  name <- str_split(drug, "/")[[1]][4]
+  prefix <- paste("results", "drugs", sep = "/")
+  filename <- paste(paste(name, "Concordant", sep = "-"), "tsv", sep = ".")
+  fullname <- paste(prefix, filename, sep = "/")
+  write_tsv(concordance, fullname)
+}
+
+drugs <- c("Fluoxetine", "Paroxetine", "Bupropion")
+
+for (target in target_results) {
+  name <- str_split(target, "/")[[1]][4]
+  concordance <- get_concordant_signatures(target) %>% 
+    filter(compound %in% drugs)
+  prefix <- paste("results", "targets", sep = "/")
+  filename <- paste(paste(name, "Concordant", sep = "-"), "tsv", sep = ".")
+  fullname <- paste(prefix, filename, sep = "/")
+  write_tsv(concordance, fullname)
+}
