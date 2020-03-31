@@ -1,0 +1,3 @@
+similarity	pValue	nGenes	treatment	perturbagenID	time	signatureid	cellline	Source_Signature
+0.3193	4.5259e-6	198	IL6	CGS001-3569	144 h	LINCSKD_35960	PC3	LINCSCP_170692
+0.3161	5.7176e-6	198	IL6ST	CGS001-3572	96 h	LINCSKD_1545	A375	LINCSCP_170692
