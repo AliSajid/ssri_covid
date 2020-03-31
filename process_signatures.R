@@ -4,7 +4,7 @@ library(jsonlite)
 source("pipeline.R")
 
 drugs_signatures <- unlist(strsplit(read_file("drugs_signature_ids"), split = "\n"))
-#targets_signatures <- unlist(strsplit(read_file("targets_signature_ids"), split = "\n"))
+targets_signatures <- unlist(strsplit(read_file("targets_signature_ids"), split = "\n"))
 
 for (drug in drugs_signatures) {
   prefix <- paste("data", "signatures", sep = "/")
@@ -62,10 +62,11 @@ drug_results <- list.files("data/filtered/", pattern = "LINCSCP", full.names = T
 genes <- c("IL6", "IL6R", "IL6ST")
 
 for (drug in drug_results) {
-    name <- str_split(drug, "/")[[1]][4]
-    concordance <- get_concordant_signatures(drug, library = "LIB_6") %>% 
-    filter(treatment %in% genes) %>% 
-    mutate(Source_Signature = name)
+  name <- str_split(drug, "/")[[1]][4]
+  name <- str_split(name, "-")[[1]][1]
+  concordance <- get_concordant_signatures(drug, library = "LIB_6") %>% 
+  filter(treatment %in% genes) %>% 
+  mutate(Source_Signature = name)
   prefix <- paste("results", "drugs", sep = "/")
   filename <- paste(paste(name, "Concordant", sep = "-"), "tsv", sep = ".")
   fullname <- paste(prefix, filename, sep = "/")
