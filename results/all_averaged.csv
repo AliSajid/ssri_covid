@@ -1,0 +1,13 @@
+perturbagen,treatment,mean_similarity
+Bupropion,IL6,-0.09590000000000001
+Bupropion,IL6R,0.4439
+Bupropion,IL6ST,0.30820000000000003
+Dexamethasone,IL6,0.3483
+Dexamethasone,IL6R,0.1334
+Dexamethasone,IL6ST,0.40366
+Fluoxetine,IL6,-0.028600000000000014
+Fluoxetine,IL6R,0.2467
+Fluoxetine,IL6ST,0.5461
+Paroxetine,IL6,0.2121
+Paroxetine,IL6R,0.3318
+Paroxetine,IL6ST,0.32681666666666664

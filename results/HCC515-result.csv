@@ -1,5 +1,4 @@
-similarity,pValue,nGenes,treatment,perturbagenID,time,signatureid,cellline,Source_Signature,Perturbagen
-0.3864,0,122,IL6,CGS001-3569,96 h,LINCSKD_12722,HCC515,LINCSCP_18751,Bupropion
-0.3616,1.2758e-18,556,IL6ST,CGS001-3572,96 h,LINCSKD_12723,HCC515,LINCSCP_18898,Paroxetine
-0.2196,4.896e-6,425,IL6ST,CGS001-3572,96 h,LINCSKD_12723,HCC515,LINCSCP_18922,Dexamethasone 21-acetate
-0.2442,4.759e-6,343,IL6ST,CGS001-3572,96 h,LINCSKD_12723,HCC515,LINCSCP_19000,SPECTRUM_000898
+perturbagen,treatment,cellline,similarity
+Bupropion,IL6,HCC515,0.3864
+Paroxetine,IL6ST,HCC515,0.3616
+Dexamethasone,IL6ST,HCC515,0.2196
