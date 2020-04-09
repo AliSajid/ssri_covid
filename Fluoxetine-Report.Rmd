@@ -1,0 +1,63 @@
+---
+title: "Fluoxetine and IL6"
+author: "Dr. Ali Sajid Imami"
+date: "31/03/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+suppressPackageStartupMessages(library(tidyverse))
+all_results <- read_csv("results/all_results.csv")
+all_averaged <- read_csv("results/all_averaged.csv")
+```
+
+## Background
+
+To assess the potential of Fluoxetine in preventing and/or mitigating cytokine storm, we performed an in-silico analysis of the transcriptional profile of the drugs. The drugs chosen were:
+
+1. Fluoxetine
+2. Paroxetine
+3. Bupropion
+4. Dedxamethasone
+
+The identified IL-6 related target genes were:
+
+1. IL6
+2. IL6R (Receptor)
+3. IL6ST (Signal Transducer)
+
+After reviewing iLINCS data, 7 cell lines that had signatures for all the drugs were chosen. The cell lines are: 
+
+1. A375
+1. A549
+1. HA1E
+1. HCC515
+1. HEPG2
+1. HT29
+1. MCF7
+1. PC3
+
+A simple summary of the data is given below along with interpretation.
+
+## Averaged Similarity
+
+To assess the similarity across cell lines, we downloaded the signatures of the individual drugs in the selected cell lines, obtained connected knock-down signatures and then looked at their similarity or "concordance".
+
+The table is below:
+
+```{r, echo = FALSE}
+all_averaged %>% arrange(treatment, desc(mean_similarity)) %>%  knitr::kable()
+```
+
+We can see from the table that for the IL6 gene, the similarity is spread out. However, for the IL6R gene, Bupropion has the biggest similarity, followed by Paroxetine, Fluoxetine and Dexamethasone. The order is rversed for the IL6ST gene.
+
+## Cell-Specific Similarity
+
+We also checked the similarity in cell-line specific manner. 
+
+The table is below:
+
+```{r, echo = FALSE}
+all_results %>% arrange(cellline, treatment, desc(similarity)) %>%  knitr::kable()
+```
