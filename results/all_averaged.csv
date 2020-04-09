@@ -2,6 +2,8 @@ perturbagen,treatment,mean_similarity
 Bupropion,IL6,-0.09590000000000001
 Bupropion,IL6R,0.4439
 Bupropion,IL6ST,0.30820000000000003
+Chloroquine,IL6,0.39275000000000004
+Chloroquine,IL6R,0.362
 Dexamethasone,IL6,0.3483
 Dexamethasone,IL6R,0.1334
 Dexamethasone,IL6ST,0.40366

@@ -35,3 +35,6 @@ Dexamethasone,IL6ST,HEPG2,0.4554
 Dexamethasone,IL6R,HEPG2,0.2381
 Dexamethasone,IL6ST,A549,0.4371
 Dexamethasone,IL6R,A549,-0.2411
+Chloroquine,IL6R,HA1E,0.362
+Chloroquine,IL6,A549,0.2998
+Chloroquine,IL6,HA1E,0.4857
