@@ -36,7 +36,7 @@ for (i in 1:length(files)) {
 
 df <- reduce(dfs, bind_rows)
 
-drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone", "Hydroxychloroquine", "Chloroquine")
+drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone", "Chloroquine")
 
 complete <- inner_join(df, metadata, by = c("Source_Signature" = "SignatureId", "cellline" = "CellLine")) %>% 
   mutate(Perturbagen = str_to_title(Perturbagen)) %>% 
@@ -46,22 +46,22 @@ complete <- inner_join(df, metadata, by = c("Source_Signature" = "SignatureId", 
          perturbagen = if_else(perturbagen == "Dexamethasone 21-Acetate", "Dexamethasone", perturbagen)) %>% 
   filter(perturbagen %in% drugs)
 
-filter_data <- function(data, cell_line, cutoff) {
+filter_data <- function(data, cell_line) {
     dataframe <- data
     output <- dataframe %>%
     filter(cellline == cell_line) %>%
-    group_by(cellline, treatment, Perturbagen) %>%
-    filter(similarity == max(similarity)) %>%
+    group_by(cellline, treatment, perturbagen) %>%
+    filter(abs(similarity) == max(abs(similarity))) %>%
     ungroup() %>% 
-    select(signatureid, treatment, Perturbagen, similarity, pValue, cellline)
+    select(signatureid, treatment, perturbagen, similarity, pValue, cellline)
     return(output)
   }
 
 analysed <- complete %>% 
   group_by(cellline, treatment, perturbagen) %>% 
-  filter(similarity == max(similarity))
+  filter(abs(similarity) == max(abs(similarity)))
 
-cell_lines <- c("A375", "A549", "HA1E", "HCC515", "HEPG2", "HT29", "MCF7", "PC3")
+cell_lines <- unique(analysed$cellline)
 
 for (cell in cell_lines) {
   outfile <- paste("results", paste(paste(cell, "result", sep = "-"), "csv", sep = "."), sep = "/")
@@ -86,17 +86,26 @@ all_averaged <- all_results %>%
 
 write_csv(all_averaged, "results/all_averaged.csv")
 
-common_cell_lines <- c("A375", "HEPG2")
+cell_line_report <- function(data, gene, cell_lines) {
+  d <- data %>% 
+    filter(treatment == gene,
+           cellline %in% cell_lines) %>% 
+    ungroup() %>% 
+    select(-treatment) %>% 
+    arrange(cellline, similarity)
+  
+  outfile <- paste("results", paste(gene, "csv", sep = "."), sep = "/")
+  outfile_cross <- paste("results", paste(paste(gene, "cross", sep = "-"), "csv", sep = "."), sep = "/")
+  
+  write_csv(d, outfile)
+  
+  dcross <- dcast(d, cellline ~ perturbagen)
+  
+  write.csv(dcross, outfile_cross)
+}
 
-il6st <- all_results %>% 
-  filter(treatment == "IL6ST",
-         cellline %in% common_cell_lines) %>% 
-  ungroup() %>% 
-  select(-treatment) %>% 
-  arrange(cellline, similarity)
-
-write_csv(il6st, "results/il6st.csv")
-
-il6stcrosstab <- dcast(il6st, cellline ~ perturbagen)
-
-write.csv(il6stcrosstab, "results/il6stcrosstab.csv")
+cell_line_report(all_results, "IL6", cell_lines)
+cell_line_report(all_results, "IL6R", cell_lines)
+cell_line_report(all_results, "IL6ST", cell_lines)
+cell_line_report(all_results, "NFKB1", cell_lines)
+cell_line_report(all_results, "NFKB2", cell_lines)
