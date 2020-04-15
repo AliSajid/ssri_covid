@@ -34,7 +34,7 @@ for (drug in drugs_signatures) {
 
 drug_results <- list.files("data/filtered/", pattern = "LINCSCP", full.names = TRUE)
 
-genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2")
+genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL")
 
 for (drug in drug_results) {
   name <- str_split(drug, "/")[[1]][4]
