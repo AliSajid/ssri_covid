@@ -22,8 +22,11 @@ process: process_signatures.R
 
 analyse: analyse_data.R
 	Rscript analyse_data.R
+	Rscript analyse_data_2.R
 
 visualise: figure*.R
 	Rscript figure1.R
+	Rscript figure2.R
+	Rscript figure3.R
 
 all: curate process analyse visualise
