@@ -1,8 +1,8 @@
 library(tidyverse)
 
-df <- read_csv("results/il6st.csv")
+df <- read_csv("results/IL6ST.csv")
 
-p <-  ggplot(il6st, 
+p <-  ggplot(df, 
              aes(x = perturbagen, 
                  y = similarity, 
                  group = cellline, 
