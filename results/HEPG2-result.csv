@@ -1,6 +1,13 @@
 perturbagen,treatment,cellline,similarity
 Fluoxetine,IL6ST,HEPG2,0.6139
+Bupropion,REL,HEPG2,0.5932
 Bupropion,IL6ST,HEPG2,0.5435
+Paroxetine,RELB,HEPG2,0.3524
+Paroxetine,NFKB1,HEPG2,0.2615
 Paroxetine,IL6ST,HEPG2,0.5148
+Paroxetine,REL,HEPG2,0.3347
 Dexamethasone,IL6ST,HEPG2,0.4554
+Dexamethasone,REL,HEPG2,0.2741
+Dexamethasone,NFKB1,HEPG2,0.3255
 Dexamethasone,IL6R,HEPG2,0.2381
+Chloroquine,REL,HEPG2,0.4567

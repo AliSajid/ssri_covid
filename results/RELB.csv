@@ -1,0 +1,10 @@
+perturbagen,cellline,similarity
+Dexamethasone,A375,0.2979
+Paroxetine,A375,0.3004
+Fluoxetine,A549,0.2602
+Chloroquine,A549,0.3178
+Paroxetine,A549,0.3495
+Chloroquine,HCC515,0.378
+Paroxetine,HEPG2,0.3524
+Dexamethasone,PC3,-0.2091
+Paroxetine,PC3,0.3738

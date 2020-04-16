@@ -1,3 +1,11 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,REL,HT29,0.3278
+Fluoxetine,NFKB1,HT29,0.3218
+Bupropion,REL,HT29,0.2275
 Paroxetine,IL6,HT29,-0.3142
+Paroxetine,REL,HT29,0.313
+Dexamethasone,NFKB1,HT29,0.2313
+Dexamethasone,NFKB2,HT29,0.3017
 Dexamethasone,IL6ST,HT29,0.293
+Dexamethasone,REL,HT29,0.5338
+Chloroquine,REL,HT29,0.3504

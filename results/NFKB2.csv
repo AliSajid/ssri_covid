@@ -1,0 +1,14 @@
+perturbagen,cellline,similarity
+Chloroquine,A549,0.2776
+Dexamethasone,A549,0.4322
+Paroxetine,A549,0.5659
+Bupropion,A549,0.5754
+Fluoxetine,HA1E,0.3725
+Dexamethasone,HA1E,0.4302
+Paroxetine,HA1E,0.4854
+Dexamethasone,HT29,0.3017
+Bupropion,MCF7,-0.2085
+Fluoxetine,MCF7,0.3125
+Paroxetine,MCF7,0.4619
+Paroxetine,PC3,0.2214
+Dexamethasone,PC3,0.2887

@@ -3,7 +3,17 @@ Bupropion,A375,0.3677
 Paroxetine,A375,0.4426
 Dexamethasone,A375,0.6132
 Fluoxetine,A375,0.7982
+Dexamethasone,A549,0.4371
+Paroxetine,A549,0.5236
+Bupropion,A549,0.6458
+Fluoxetine,HA1E,0.2262
+Paroxetine,HA1E,0.3597
+Dexamethasone,HCC515,0.2196
+Paroxetine,HCC515,0.3616
 Dexamethasone,HEPG2,0.4554
 Paroxetine,HEPG2,0.5148
 Bupropion,HEPG2,0.5435
 Fluoxetine,HEPG2,0.6139
+Dexamethasone,HT29,0.293
+Bupropion,MCF7,-0.3242
+Paroxetine,MCF7,-0.2591

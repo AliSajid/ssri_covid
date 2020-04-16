@@ -1,0 +1,6 @@
+perturbagen,treatment,cellline,similarity
+Fluoxetine,RELB,NPC,0.3152
+Bupropion,RELB,NPC,0.4319
+Paroxetine,RELB,NPC,0.4487
+Dexamethasone,RELB,NPC,0.4729
+Chloroquine,RELB,NPC,0.5388

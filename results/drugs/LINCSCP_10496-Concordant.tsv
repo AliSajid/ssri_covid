@@ -1,3 +1,0 @@
-similarity	pValue	nGenes	treatment	perturbagenID	time	signatureid	cellline	Source_Signature
-0.5447	1.1862e-23	288	IL6ST	CGS001-3572	120 h	LINCSKD_31340	VCAP	LINCSCP_10496
-0.4384	5.905e-15	288	IL6R	CGS001-3570	96 h	LINCSKD_9601	HA1E	LINCSCP_10496

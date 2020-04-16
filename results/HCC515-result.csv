@@ -2,3 +2,5 @@ perturbagen,treatment,cellline,similarity
 Bupropion,IL6,HCC515,0.3864
 Paroxetine,IL6ST,HCC515,0.3616
 Dexamethasone,IL6ST,HCC515,0.2196
+Chloroquine,REL,HCC515,0.4292
+Chloroquine,RELB,HCC515,0.378
