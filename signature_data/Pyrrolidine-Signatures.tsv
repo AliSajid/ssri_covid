@@ -1,0 +1,12 @@
+SignatureId	Perturbagen	GeneTargets	Concentration	CellLine	Time	is_exemplar
+LINCSCP_11324	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	ASC	24h	1
+LINCSCP_13939	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	HA1E	6h	1
+LINCSCP_18025	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	HCC515	24h	0
+LINCSCP_18129	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	HCC515	6h	1
+LINCSCP_22801	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	HEPG2	6h	1
+LINCSCP_26923	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	HT29	6h	1
+LINCSCP_2735	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	A375	6h	1
+LINCSCP_33118	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	MCF7	24h	0
+LINCSCP_33249	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	MCF7	6h	1
+LINCSCP_42661	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	NPC	24h	1
+LINCSCP_7200	Pyrrolidine Dithiocarbamate	HSD11B1	10uM	A549	6h	1
