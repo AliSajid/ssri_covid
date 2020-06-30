@@ -1,5 +1,8 @@
 # COVID-19/IL-6 Project
 
+[![DOI](https://zenodo.org/badge/257913143.svg)](https://zenodo.org/badge/latestdoi/257913143)
+
+
 ## Introduction
 
 This repo has the R scripts and code used to generate the results and figures for the **COVID-19/IL-6** project. [This is where we will link the paper when we get it published]().
@@ -81,3 +84,4 @@ This can be separately invoked like this:
 ```bash
 make visualise
 ```
+
