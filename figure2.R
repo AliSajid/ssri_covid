@@ -1,7 +1,10 @@
 library(tidyverse)
 library(gplots)
 
-genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL")
+genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL",
+           "JAK1", "JAK2", "JAK3", "SOCS1", "SOCS2", "SOCS3", "SOCS4", "SOCS5", "STAT1",
+           "STAT2", "STAT3", "STAT4", "STAT5A", "STAT5B", "STAT6", "IKBKAP", "IKBKB",
+           "IKBKE", "IKBKG")
 
 data <- list()
 
@@ -17,7 +20,7 @@ for (g in genes) {
   }
 }
 
-colors <- colorRampPalette(c("red", "black", "green"))(11)
+colors <- colorRampPalette(rev(c("red", "black", "green")))(20)
 
 for (g in genes) {
   file_name <- paste(paste(g, "heatmap", sep = "-"), "png", sep = ".")
@@ -27,13 +30,13 @@ for (g in genes) {
     heatmap.2(d, dendrogram = "none", col = colors, colsep = 1:(dim(d)[2] - 1), rowsep = 1:(dim(d)[1] - 1),
               trace = "none", cexRow = 3, cexCol = 3, Rowv = FALSE, Colv = FALSE,
               density.info = "none", keysize = 1, margins = c(15, 25), notecex=2.0,
-              main = paste("Concordance across cell lines for", g),
+              main = paste("Concordance across cell lines for", g), symbreaks = TRUE, breaks = seq(-1, 1, 0.1),
               key.title = NA, key.xlab = NA, key.par = list(cex = 1.3), cellnote = d, notecol = "white")
     png(filename = full_name, width = 1920, height = 1384)
     heatmap.2(d, dendrogram = "none", col = colors, colsep = 1:(dim(d)[2] - 1), rowsep = 1:(dim(d)[1] - 1),
               trace = "none", cexRow = 3, cexCol = 3, Rowv = FALSE, Colv = FALSE,
               density.info = "none", keysize = 1, margins = c(15, 25), notecex=2.0,
-              main = paste("Concordance across cell lines for", g),
+              main = paste("Concordance across cell lines for", g), sumbreaks = TRUE, breaks = seq(-1, 1, 0.1),
               key.title = NA, key.xlab = NA, key.par = list(cex = 1.3), cellnote = d, notecol = "white")
     dev.off()
   }
