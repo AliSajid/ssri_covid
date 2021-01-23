@@ -1,0 +1,57 @@
+perturbagen,cellline,similarity
+Bupropion,A375,-0.4351
+Pyrrolidine Dithiocarbamate,A375,0.3704
+Paroxetine,A375,0.4238
+Fluoxetine,A375,0.4735
+Dexamethasone,A375,0.4903
+Chloroquine,A375,0.4919
+Rolipram,A375,0.6687
+Pyrrolidine Dithiocarbamate,A549,-0.3794
+Rolipram,A549,0.6382
+Paroxetine,A549,0.6496
+Chloroquine,A549,0.6756
+Dexamethasone,A549,0.7158
+Bupropion,A549,0.7435
+Fluoxetine,A549,0.7518
+Rolipram,HA1E,0.4712
+Bupropion,HA1E,0.5208
+Chloroquine,HA1E,0.5307
+Dexamethasone,HA1E,0.555
+Paroxetine,HA1E,0.5647
+Fluoxetine,HA1E,0.656
+Paroxetine,HCC515,0.2961
+Pyrrolidine Dithiocarbamate,HCC515,0.348
+Fluoxetine,HCC515,0.3501
+Dexamethasone,HCC515,0.3826
+Rolipram,HCC515,0.4777
+Bupropion,HCC515,0.5052
+Chloroquine,HCC515,0.5409
+Pyrrolidine Dithiocarbamate,HEPG2,0.289
+Paroxetine,HEPG2,0.5034
+Rolipram,HEPG2,0.5336
+Dexamethasone,HEPG2,0.5894
+Bupropion,HEPG2,0.6382
+Fluoxetine,HEPG2,0.6384
+Chloroquine,HEPG2,0.6446
+Chloroquine,HT29,-0.5196
+Dexamethasone,HT29,-0.5151
+Paroxetine,HT29,0.4753
+Bupropion,HT29,0.4768
+Rolipram,HT29,0.4884
+Fluoxetine,HT29,0.5364
+Bupropion,MCF7,-0.2645
+Paroxetine,MCF7,0.2804
+Pyrrolidine Dithiocarbamate,PC3,0.3036
+Paroxetine,PC3,0.4768
+Rolipram,PC3,0.5247
+Bupropion,PC3,0.5446
+Chloroquine,PC3,0.551
+Fluoxetine,PC3,0.5665
+Dexamethasone,PC3,0.5815
+Pyrrolidine Dithiocarbamate,VCAP,0.3719
+Bupropion,VCAP,0.4275
+Chloroquine,VCAP,0.5242
+Fluoxetine,VCAP,0.5469
+Rolipram,VCAP,0.577
+Paroxetine,VCAP,0.5984
+Dexamethasone,VCAP,0.6347

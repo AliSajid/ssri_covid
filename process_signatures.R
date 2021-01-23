@@ -34,7 +34,10 @@ for (drug in drugs_signatures) {
 
 drug_results <- list.files("data/filtered/", pattern = "LINCSCP", full.names = TRUE)
 
-genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL")
+genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL",
+           "JAK1", "JAK2", "JAK3", "SOCS1", "SOCS2", "SOCS3", "SOCS4", "SOCS5", "STAT1",
+           "STAT2", "STAT3", "STAT4", "STAT5A", "STAT5B", "STAT6", "IKBKAP", "IKBKB",
+           "IKBKE", "IKBKG")
 
 for (drug in drug_results) {
   name <- str_split(drug, "/")[[1]][4]
@@ -46,6 +49,7 @@ for (drug in drug_results) {
     print(paste("Processing concordance for signature:", name))
     concordance <- get_concordant_signatures(drug, library = "LIB_6") %>% 
       filter(treatment %in% genes) %>% 
+#             abs(similarity) > 0.321) %>% 
       mutate(Source_Signature = name)
     write_tsv(concordance, fullname)
   } else {

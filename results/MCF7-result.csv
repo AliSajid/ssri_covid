@@ -1,21 +1,87 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,STAT6,MCF7,0.4021
+Fluoxetine,IKBKB,MCF7,0.2774
+Fluoxetine,IKBKE,MCF7,0.6449
+Fluoxetine,STAT3,MCF7,0.5718
+Fluoxetine,STAT1,MCF7,0.5521
 Fluoxetine,REL,MCF7,0.5272
 Fluoxetine,TNF,MCF7,-0.5233
+Fluoxetine,STAT5B,MCF7,0.4522
+Fluoxetine,JAK2,MCF7,0.2377
 Fluoxetine,NFKB1,MCF7,0.379
+Fluoxetine,IKBKG,MCF7,0.3257
 Fluoxetine,NFKB2,MCF7,0.3125
 Fluoxetine,IL6,MCF7,0.2991
+Fluoxetine,SOCS4,MCF7,0.2818
+Bupropion,SOCS2,MCF7,0.2218
 Bupropion,IL6ST,MCF7,-0.3242
+Bupropion,JAK2,MCF7,0.2169
 Bupropion,NFKB2,MCF7,-0.2085
+Bupropion,IKBKG,MCF7,-0.205
+Bupropion,STAT5B,MCF7,0.311
 Bupropion,REL,MCF7,0.2113
+Bupropion,IKBKAP,MCF7,0.2003
+Bupropion,IKBKE,MCF7,0.484
+Bupropion,STAT1,MCF7,0.4789
+Bupropion,STAT3,MCF7,0.4229
+Bupropion,STAT6,MCF7,0.4056
+Bupropion,IKBKB,MCF7,0.3955
 Paroxetine,IL6,MCF7,0.2488
 Paroxetine,NFKB1,MCF7,0.2252
 Paroxetine,IL6ST,MCF7,-0.2591
 Paroxetine,TNF,MCF7,-0.3621
+Paroxetine,IKBKAP,MCF7,0.2819
+Paroxetine,IKBKE,MCF7,0.4884
+Paroxetine,STAT3,MCF7,0.4587
+Paroxetine,STAT1,MCF7,0.4168
+Paroxetine,SOCS4,MCF7,0.3145
 Paroxetine,IL6R,MCF7,0.2657
+Paroxetine,SOCS5,MCF7,0.2866
+Paroxetine,STAT2,MCF7,0.2865
+Paroxetine,SOCS1,MCF7,0.2539
+Paroxetine,JAK2,MCF7,-0.352
+Paroxetine,STAT5B,MCF7,0.3474
 Paroxetine,REL,MCF7,0.5121
 Paroxetine,NFKB2,MCF7,0.4619
+Paroxetine,SOCS2,MCF7,-0.4301
+Paroxetine,STAT6,MCF7,0.4168
+Paroxetine,IKBKB,MCF7,0.3998
+Dexamethasone,STAT5B,MCF7,0.4187
+Dexamethasone,STAT3,MCF7,0.4029
+Dexamethasone,IKBKB,MCF7,0.3238
 Dexamethasone,REL,MCF7,0.2966
+Dexamethasone,SOCS4,MCF7,0.2995
+Dexamethasone,IKBKE,MCF7,0.5781
+Dexamethasone,STAT1,MCF7,0.5553
 Dexamethasone,TNF,MCF7,-0.5013
+Chloroquine,IKBKB,MCF7,0.4071
+Chloroquine,SOCS4,MCF7,0.7477
 Chloroquine,TNF,MCF7,0.7443
 Chloroquine,NFKB1,MCF7,0.4558
+Chloroquine,STAT5A,MCF7,0.3321
+Chloroquine,SOCS5,MCF7,0.3453
+Chloroquine,STAT5B,MCF7,0.3983
 Chloroquine,REL,MCF7,0.4414
+Chloroquine,SOCS2,MCF7,-0.4011
+Chloroquine,IKBKE,MCF7,0.6868
+Chloroquine,STAT1,MCF7,0.5917
+Chloroquine,STAT3,MCF7,0.5608
+Pyrrolidine Dithiocarbamate,REL,MCF7,0.5583
+Pyrrolidine Dithiocarbamate,STAT6,MCF7,0.501
+Pyrrolidine Dithiocarbamate,SOCS2,MCF7,-0.402
+Pyrrolidine Dithiocarbamate,STAT1,MCF7,0.3913
+Pyrrolidine Dithiocarbamate,NFKB1,MCF7,0.3705
+Pyrrolidine Dithiocarbamate,JAK2,MCF7,-0.3406
+Pyrrolidine Dithiocarbamate,RELA,MCF7,-0.3081
+Pyrrolidine Dithiocarbamate,RELB,MCF7,0.2836
+Pyrrolidine Dithiocarbamate,IKBKB,MCF7,0.4015
+Pyrrolidine Dithiocarbamate,STAT3,MCF7,0.4013
+Pyrrolidine Dithiocarbamate,IKBKE,MCF7,0.3789
+Pyrrolidine Dithiocarbamate,NFKB2,MCF7,0.3765
+Rolipram,STAT5A,MCF7,0.3458
+Rolipram,SOCS2,MCF7,0.314
+Rolipram,SOCS5,MCF7,0.252
+Rolipram,TNF,MCF7,0.6122
+Rolipram,SOCS4,MCF7,0.481
+Rolipram,STAT2,MCF7,0.4622
+Rolipram,IKBKE,MCF7,-0.4587

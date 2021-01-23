@@ -1,0 +1,7 @@
+perturbagen,treatment,cellline,similarity
+Paroxetine,IKBKB,ASC,0.5144
+Paroxetine,IKBKE,ASC,0.3898
+Dexamethasone,IKBKG,ASC,0.3232
+Dexamethasone,IKBKB,ASC,0.3158
+Dexamethasone,STAT1,ASC,0.4297
+Pyrrolidine Dithiocarbamate,IKBKAP,ASC,0.4743

@@ -1,13 +1,39 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,IKBKE,HEPG2,0.6193
+Fluoxetine,JAK1,HEPG2,0.6163
 Fluoxetine,IL6ST,HEPG2,0.6139
+Bupropion,JAK1,HEPG2,0.6382
 Bupropion,REL,HEPG2,0.5932
+Bupropion,IKBKE,HEPG2,0.5544
 Bupropion,IL6ST,HEPG2,0.5435
+Paroxetine,SOCS1,HEPG2,0.3919
 Paroxetine,RELB,HEPG2,0.3524
 Paroxetine,NFKB1,HEPG2,0.2615
 Paroxetine,IL6ST,HEPG2,0.5148
+Paroxetine,IKBKB,HEPG2,0.4807
+Paroxetine,IKBKAP,HEPG2,0.4077
+Paroxetine,IKBKE,HEPG2,0.3662
+Paroxetine,SOCS2,HEPG2,0.3398
 Paroxetine,REL,HEPG2,0.3347
+Paroxetine,STAT5B,HEPG2,0.3162
 Dexamethasone,IL6ST,HEPG2,0.4554
+Dexamethasone,IKBKE,HEPG2,0.3978
+Dexamethasone,STAT5B,HEPG2,0.3793
+Dexamethasone,JAK1,HEPG2,0.3596
+Dexamethasone,STAT1,HEPG2,0.3347
+Dexamethasone,IKBKB,HEPG2,0.3222
 Dexamethasone,REL,HEPG2,0.2741
 Dexamethasone,NFKB1,HEPG2,0.3255
+Dexamethasone,SOCS1,HEPG2,0.3195
+Dexamethasone,STAT5A,HEPG2,0.2545
 Dexamethasone,IL6R,HEPG2,0.2381
+Chloroquine,JAK1,HEPG2,0.6446
+Chloroquine,IKBKE,HEPG2,0.4987
 Chloroquine,REL,HEPG2,0.4567
+Pyrrolidine Dithiocarbamate,STAT3,HEPG2,0.4003
+Pyrrolidine Dithiocarbamate,IKBKE,HEPG2,-0.3976
+Pyrrolidine Dithiocarbamate,SOCS1,HEPG2,0.3964
+Pyrrolidine Dithiocarbamate,STAT6,HEPG2,0.3899
+Pyrrolidine Dithiocarbamate,TNF,HEPG2,0.3761
+Rolipram,SOCS1,HEPG2,0.5322
+Rolipram,STAT3,HEPG2,0.4616

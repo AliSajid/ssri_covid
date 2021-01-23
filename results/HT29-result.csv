@@ -1,11 +1,63 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,STAT5A,HT29,0.525
 Fluoxetine,REL,HT29,0.3278
+Fluoxetine,STAT1,HT29,0.571
+Fluoxetine,IKBKE,HT29,0.5094
+Fluoxetine,SOCS1,HT29,0.5078
+Fluoxetine,IKBKB,HT29,0.4412
+Fluoxetine,IKBKAP,HT29,0.3861
 Fluoxetine,NFKB1,HT29,0.3218
+Bupropion,JAK1,HT29,0.4033
+Bupropion,STAT1,HT29,0.2994
+Bupropion,SOCS1,HT29,0.2939
+Bupropion,STAT5B,HT29,0.2731
+Bupropion,SOCS4,HT29,0.2656
+Bupropion,JAK2,HT29,0.2345
 Bupropion,REL,HT29,0.2275
+Bupropion,IKBKE,HT29,-0.5883
+Bupropion,STAT6,HT29,0.5838
+Paroxetine,IKBKAP,HT29,0.339
 Paroxetine,IL6,HT29,-0.3142
+Paroxetine,STAT5A,HT29,0.5769
+Paroxetine,STAT1,HT29,0.6549
+Paroxetine,IKBKE,HT29,0.5989
+Paroxetine,SOCS1,HT29,0.5594
+Paroxetine,JAK1,HT29,0.4753
 Paroxetine,REL,HT29,0.313
+Dexamethasone,STAT5B,HT29,0.3692
+Dexamethasone,JAK1,HT29,0.3457
 Dexamethasone,NFKB1,HT29,0.2313
+Dexamethasone,SOCS1,HT29,0.4177
+Dexamethasone,SOCS2,HT29,0.4043
+Dexamethasone,JAK3,HT29,0.3374
 Dexamethasone,NFKB2,HT29,0.3017
+Dexamethasone,STAT5A,HT29,0.2954
 Dexamethasone,IL6ST,HT29,0.293
+Dexamethasone,STAT3,HT29,0.3496
+Dexamethasone,IKBKB,HT29,0.6168
+Dexamethasone,IKBKE,HT29,0.5852
+Dexamethasone,STAT1,HT29,0.5721
+Dexamethasone,SOCS4,HT29,0.6173
+Dexamethasone,SOCS5,HT29,0.6058
+Dexamethasone,STAT6,HT29,0.5842
 Dexamethasone,REL,HT29,0.5338
+Chloroquine,STAT6,HT29,0.4471
+Chloroquine,IKBKAP,HT29,0.3746
 Chloroquine,REL,HT29,0.3504
+Chloroquine,SOCS4,HT29,0.2795
+Chloroquine,SOCS2,HT29,0.2489
+Pyrrolidine Dithiocarbamate,IKBKAP,HT29,0.4449
+Pyrrolidine Dithiocarbamate,STAT5A,HT29,0.3827
+Pyrrolidine Dithiocarbamate,STAT1,HT29,0.3118
+Pyrrolidine Dithiocarbamate,SOCS1,HT29,0.2934
+Pyrrolidine Dithiocarbamate,STAT4,HT29,0.2646
+Pyrrolidine Dithiocarbamate,STAT5B,HT29,0.25
+Pyrrolidine Dithiocarbamate,IKBKG,HT29,0.2387
+Rolipram,JAK2,HT29,0.3144
+Rolipram,IKBKB,HT29,0.3415
+Rolipram,SOCS1,HT29,0.2932
+Rolipram,STAT4,HT29,0.4001
+Rolipram,STAT6,HT29,0.5699
+Rolipram,IKBKE,HT29,-0.5552
+Rolipram,SOCS4,HT29,0.4747
+Rolipram,STAT1,HT29,-0.4672

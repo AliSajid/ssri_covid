@@ -1,0 +1,10 @@
+"","cellline","Bupropion","Chloroquine","Dexamethasone","Fluoxetine","Paroxetine","Pyrrolidine Dithiocarbamate","Rolipram"
+"1","A375",0.2602,NA,NA,NA,NA,0.4853,NA
+"2","A549",NA,0.3984,0.2495,-0.2828,NA,NA,0.3722
+"3","HA1E",0.5549,0.4694,0.5065,0.352,0.501,NA,NA
+"4","HCC515",NA,NA,0.2748,NA,NA,NA,NA
+"5","HEPG2",NA,NA,NA,NA,NA,0.4003,0.4616
+"6","HT29",NA,NA,0.3496,NA,NA,NA,NA
+"7","MCF7",0.4229,0.5608,0.4029,0.5718,0.4587,0.4013,NA
+"8","PC3",NA,0.3203,0.2813,NA,0.3002,NA,NA
+"9","VCAP",NA,NA,0.2132,NA,NA,NA,0.3704

@@ -1,6 +1,7 @@
 perturbagen,cellline,similarity
 Dexamethasone,A549,-0.2411
 Paroxetine,A549,0.3768
+Rolipram,A549,0.4299
 Fluoxetine,HA1E,0.2467
 Chloroquine,HA1E,0.362
 Dexamethasone,HEPG2,0.2381

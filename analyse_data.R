@@ -36,7 +36,8 @@ for (i in 1:length(files)) {
 
 df <- reduce(dfs, bind_rows)
 
-drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone", "Chloroquine")
+drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone", "Chloroquine",
+  "Barictinib", "Pyrrolidine Dithiocarbamate", "Rolipram", "ZINC27645180")
 
 complete <- inner_join(df, metadata, by = c("Source_Signature" = "SignatureId", "cellline" = "CellLine")) %>% 
   mutate(Perturbagen = str_to_title(Perturbagen)) %>% 
@@ -57,9 +58,21 @@ filter_data <- function(data, cell_line) {
     return(output)
   }
 
+filter_data_unlimited <- function(data) {
+  dataframe <- data
+  output <- dataframe %>%
+    group_by(treatment, perturbagen) %>%
+    filter(abs(similarity) == max(abs(similarity))) %>%
+    ungroup() %>% 
+    select(signatureid, treatment, perturbagen, similarity, pValue, cellline)
+  return(output)
+}
+
 analysed <- complete %>% 
   group_by(cellline, treatment, perturbagen) %>% 
   filter(abs(similarity) == max(abs(similarity)))
+
+analysed_unlimited <- filter_data_unlimited(complete)
 
 cell_lines <- unique(analysed$cellline)
 
@@ -99,16 +112,25 @@ cell_line_report <- function(data, gene, cell_lines) {
   
   write_csv(d, outfile)
   
-  dcross <- dcast(d, cellline ~ perturbagen)
-  
-  write.csv(dcross, outfile_cross)
+  if (dim(d)[1] > 0) {
+    dcross <- dcast(d, cellline ~ perturbagen)
+    
+    write.csv(dcross, outfile_cross)
+    
+  }
 }
 
-cell_line_report(all_results, "IL6", cell_lines)
-cell_line_report(all_results, "IL6R", cell_lines)
-cell_line_report(all_results, "IL6ST", cell_lines)
-cell_line_report(all_results, "NFKB1", cell_lines)
-cell_line_report(all_results, "NFKB2", cell_lines)
-cell_line_report(all_results, "RELA", cell_lines)
-cell_line_report(all_results, "RELB", cell_lines)
-cell_line_report(all_results, "TNF", cell_lines)
+genes <- c("IL6", "IL6R", "IL6ST", "NFKB1", "NFKB2", "TNF", "RELA", "RELB", "REL", "CREL",
+           "JAK1", "JAK2", "JAK3", "SOCS1", "SOCS2", "SOCS3", "SOCS4", "SOCS5", "STAT1",
+           "STAT2", "STAT3", "STAT4", "STAT5A", "STAT5B", "STAT6", "IKBKAP", "IKBKB",
+           "IKBKE", "IKBKG")
+
+sapply(genes, cell_line_report, data = all_results, cell_lines = cell_lines)
+# cell_line_report(all_results, "IL6", cell_lines)
+# cell_line_report(all_results, "IL6R", cell_lines)
+# cell_line_report(all_results, "IL6ST", cell_lines)
+# cell_line_report(all_results, "NFKB1", cell_lines)
+# cell_line_report(all_results, "NFKB2", cell_lines)
+# cell_line_report(all_results, "RELA", cell_lines)
+# cell_line_report(all_results, "RELB", cell_lines)
+# cell_line_report(all_results, "TNF", cell_lines)

@@ -1,23 +1,130 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,STAT5A,HT29,0.525
 Fluoxetine,REL,HT29,0.3278
+Fluoxetine,STAT5B,HT29,0.3848
+Fluoxetine,IKBKE,HT29,0.7189
+Fluoxetine,JAK1,HT29,0.5364
+Fluoxetine,STAT6,HT29,-0.5265
+Fluoxetine,JAK2,HT29,0.4711
+Fluoxetine,SOCS2,HT29,0.3773
+Fluoxetine,STAT4,HT29,-0.2247
+Fluoxetine,SOCS1,HT29,0.5078
+Fluoxetine,IKBKB,HT29,0.4412
+Fluoxetine,STAT1,HT29,0.6547
+Fluoxetine,IKBKAP,HT29,0.3861
 Fluoxetine,NFKB1,HT29,0.3218
+Fluoxetine,SOCS4,HT29,0.3869
+Fluoxetine,SOCS5,HT29,0.3843
+Fluoxetine,JAK3,HT29,0.3613
 Fluoxetine,IL6,HT29,0.2422
+Fluoxetine,IKBKG,HT29,0.2209
+Bupropion,SOCS5,HT29,0.2318
+Bupropion,JAK3,HT29,-0.2565
+Bupropion,IKBKG,HT29,0.2142
+Bupropion,IKBKAP,HT29,-0.2823
+Bupropion,JAK1,HT29,0.4768
 Bupropion,REL,HT29,0.3195
 Bupropion,NFKB2,HT29,0.2924
+Bupropion,STAT1,HT29,0.5961
+Bupropion,IKBKE,HT29,-0.5883
+Bupropion,STAT6,HT29,0.5838
+Bupropion,JAK2,HT29,0.45
+Bupropion,SOCS4,HT29,0.422
 Bupropion,IL6,HT29,0.2724
+Bupropion,STAT5B,HT29,0.4133
+Bupropion,SOCS1,HT29,0.3308
 Bupropion,NFKB1,HT29,0.3434
 Paroxetine,IL6,HT29,-0.3142
 Paroxetine,NFKB2,HT29,0.3876
+Paroxetine,STAT5B,HT29,0.3083
+Paroxetine,IKBKB,HT29,0.3625
+Paroxetine,IKBKAP,HT29,0.3969
 Paroxetine,REL,HT29,0.397
+Paroxetine,JAK2,HT29,0.3006
+Paroxetine,STAT6,HT29,0.508
+Paroxetine,SOCS4,HT29,0.4836
+Paroxetine,STAT4,HT29,-0.3224
+Paroxetine,STAT3,HT29,0.2954
+Paroxetine,JAK3,HT29,0.2945
+Paroxetine,STAT1,HT29,0.6549
+Paroxetine,IKBKE,HT29,0.5989
+Paroxetine,SOCS1,HT29,0.5594
+Paroxetine,JAK1,HT29,0.4753
+Paroxetine,STAT5A,HT29,0.5852
 Paroxetine,IL6ST,HT29,0.389
+Paroxetine,SOCS5,HT29,0.3486
+Paroxetine,IKBKG,HT29,0.272
 Paroxetine,NFKB1,HT29,0.2672
+Dexamethasone,SOCS2,HT29,0.4043
+Dexamethasone,JAK3,HT29,0.3374
+Dexamethasone,STAT3,HT29,0.3496
+Dexamethasone,STAT5B,HT29,0.4013
 Dexamethasone,NFKB2,HT29,0.3125
+Dexamethasone,STAT4,HT29,0.2797
 Dexamethasone,IL6ST,HT29,0.4013
+Dexamethasone,IKBKB,HT29,0.6168
+Dexamethasone,SOCS4,HT29,0.6173
+Dexamethasone,SOCS5,HT29,0.6058
+Dexamethasone,STAT6,HT29,0.5842
 Dexamethasone,REL,HT29,0.5338
 Dexamethasone,IL6,HT29,0.5156
+Dexamethasone,JAK2,HT29,0.4725
+Dexamethasone,JAK1,HT29,-0.5151
+Dexamethasone,IKBKAP,HT29,0.457
+Dexamethasone,STAT5A,HT29,0.4121
+Dexamethasone,IKBKE,HT29,0.6254
 Dexamethasone,NFKB1,HT29,0.3148
+Dexamethasone,STAT1,HT29,-0.5933
+Dexamethasone,IKBKG,HT29,0.2533
+Dexamethasone,SOCS1,HT29,0.4221
 Chloroquine,REL,HT29,0.495
 Chloroquine,IL6,HT29,0.492
 Chloroquine,IL6ST,HT29,0.3386
+Chloroquine,IKBKG,HT29,0.3349
+Chloroquine,SOCS5,HT29,0.635
+Chloroquine,STAT6,HT29,0.6166
+Chloroquine,SOCS1,HT29,0.4759
+Chloroquine,JAK2,HT29,0.5584
+Chloroquine,SOCS2,HT29,0.2561
+Chloroquine,IKBKAP,HT29,0.4387
+Chloroquine,JAK3,HT29,0.3338
+Chloroquine,STAT5A,HT29,-0.3779
 Chloroquine,NFKB2,HT29,0.519
+Chloroquine,STAT4,HT29,0.4447
+Chloroquine,IKBKB,HT29,0.4439
+Chloroquine,SOCS4,HT29,0.6154
+Chloroquine,STAT1,HT29,-0.5714
+Chloroquine,IKBKE,HT29,-0.6023
 Chloroquine,NFKB1,HT29,0.2399
+Chloroquine,STAT5B,HT29,-0.3236
+Chloroquine,JAK1,HT29,-0.5196
+Pyrrolidine Dithiocarbamate,STAT5A,HT29,0.4015
+Pyrrolidine Dithiocarbamate,STAT1,HT29,0.3787
+Pyrrolidine Dithiocarbamate,STAT4,HT29,0.3443
+Pyrrolidine Dithiocarbamate,IKBKB,HT29,-0.2982
+Pyrrolidine Dithiocarbamate,IKBKE,HT29,-0.4473
+Pyrrolidine Dithiocarbamate,IKBKG,HT29,0.2387
+Pyrrolidine Dithiocarbamate,IKBKAP,HT29,0.5886
+Pyrrolidine Dithiocarbamate,STAT5B,HT29,0.3274
+Pyrrolidine Dithiocarbamate,SOCS1,HT29,0.3096
+Pyrrolidine Dithiocarbamate,STAT6,HT29,0.5223
+Pyrrolidine Dithiocarbamate,SOCS4,HT29,0.4546
+Pyrrolidine Dithiocarbamate,IL6ST,HT29,0.2471
+Rolipram,JAK1,HT29,0.4884
+Rolipram,IKBKB,HT29,0.4287
+Rolipram,STAT4,HT29,0.4001
+Rolipram,IKBKG,HT29,0.3557
+Rolipram,NFKB1,HT29,0.3893
+Rolipram,SOCS5,HT29,0.6631
+Rolipram,JAK2,HT29,0.6612
+Rolipram,REL,HT29,0.4939
+Rolipram,STAT6,HT29,0.5699
+Rolipram,IKBKE,HT29,0.5664
+Rolipram,STAT1,HT29,0.551
+Rolipram,SOCS4,HT29,0.5926
+Rolipram,SOCS1,HT29,-0.4635
+Rolipram,JAK3,HT29,0.2276
+Rolipram,IL6ST,HT29,0.3795
+Rolipram,NFKB2,HT29,0.4846
+Rolipram,IKBKAP,HT29,0.2776
+Rolipram,SOCS2,HT29,0.3522

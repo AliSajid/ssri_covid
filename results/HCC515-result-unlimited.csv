@@ -1,21 +1,98 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,RELB,HCC515,-0.4014
 Fluoxetine,REL,HCC515,-0.3507
-Fluoxetine,RELB,HCC515,0.334
+Fluoxetine,SOCS5,HCC515,0.5351
+Fluoxetine,STAT6,HCC515,0.3838
 Fluoxetine,IL6ST,HCC515,0.2679
-Bupropion,REL,HCC515,0.2511
+Fluoxetine,SOCS2,HCC515,-0.6608
+Fluoxetine,STAT1,HCC515,0.5631
+Fluoxetine,IKBKE,HCC515,0.5307
+Fluoxetine,JAK1,HCC515,0.3501
+Fluoxetine,IKBKAP,HCC515,0.5889
+Fluoxetine,SOCS4,HCC515,0.2759
+Fluoxetine,STAT5A,HCC515,0.3312
+Bupropion,STAT5A,HCC515,0.2777
+Bupropion,SOCS2,HCC515,-0.6216
 Bupropion,IL6,HCC515,0.3864
+Bupropion,IKBKG,HCC515,-0.4973
 Bupropion,RELB,HCC515,-0.5314
+Bupropion,IKBKE,HCC515,0.5103
+Bupropion,STAT6,HCC515,0.4799
+Bupropion,JAK1,HCC515,0.5052
+Bupropion,REL,HCC515,0.4664
+Bupropion,SOCS5,HCC515,0.5721
+Bupropion,SOCS4,HCC515,0.2905
+Paroxetine,IKBKAP,HCC515,0.4006
 Paroxetine,REL,HCC515,0.322
+Paroxetine,STAT3,HCC515,0.3225
+Paroxetine,JAK1,HCC515,0.2961
+Paroxetine,SOCS4,HCC515,0.2443
+Paroxetine,IKBKB,HCC515,-0.4677
 Paroxetine,IL6ST,HCC515,0.3616
+Paroxetine,IKBKG,HCC515,0.3115
+Paroxetine,SOCS2,HCC515,0.5939
+Paroxetine,STAT6,HCC515,0.4157
+Paroxetine,IKBKE,HCC515,-0.3828
+Paroxetine,STAT5A,HCC515,0.4271
 Paroxetine,TNF,HCC515,0.257
 Paroxetine,RELB,HCC515,0.4618
-Dexamethasone,REL,HCC515,-0.3415
+Paroxetine,STAT1,HCC515,0.468
+Paroxetine,SOCS5,HCC515,0.4509
 Dexamethasone,IL6,HCC515,0.3746
 Dexamethasone,TNF,HCC515,0.4483
+Dexamethasone,STAT3,HCC515,0.2748
 Dexamethasone,RELB,HCC515,0.5632
+Dexamethasone,SOCS5,HCC515,0.6294
+Dexamethasone,IKBKE,HCC515,0.5189
+Dexamethasone,IKBKG,HCC515,0.5236
+Dexamethasone,STAT5A,HCC515,0.3707
+Dexamethasone,IKBKB,HCC515,-0.3366
+Dexamethasone,SOCS2,HCC515,-0.7085
+Dexamethasone,JAK1,HCC515,0.3826
+Dexamethasone,STAT1,HCC515,0.5207
+Dexamethasone,REL,HCC515,0.5315
+Dexamethasone,SOCS4,HCC515,0.2379
+Dexamethasone,STAT6,HCC515,0.409
 Dexamethasone,IL6ST,HCC515,0.2865
 Chloroquine,IL6ST,HCC515,0.3124
+Chloroquine,JAK1,HCC515,0.5409
+Chloroquine,STAT1,HCC515,0.4686
 Chloroquine,IL6,HCC515,0.4161
+Chloroquine,SOCS5,HCC515,-0.4487
 Chloroquine,TNF,HCC515,0.4478
-Chloroquine,REL,HCC515,0.5059
-Chloroquine,RELB,HCC515,0.4662
+Chloroquine,IKBKB,HCC515,0.4055
+Chloroquine,STAT3,HCC515,0.3362
+Chloroquine,SOCS2,HCC515,0.7184
+Chloroquine,RELB,HCC515,0.6086
+Chloroquine,IKBKE,HCC515,-0.5707
+Chloroquine,IKBKG,HCC515,0.5706
+Chloroquine,REL,HCC515,0.5492
+Chloroquine,IKBKAP,HCC515,-0.3241
+Chloroquine,STAT6,HCC515,0.4368
+Pyrrolidine Dithiocarbamate,JAK1,HCC515,0.348
+Pyrrolidine Dithiocarbamate,IKBKE,HCC515,-0.3357
+Pyrrolidine Dithiocarbamate,IL6ST,HCC515,0.2952
+Pyrrolidine Dithiocarbamate,SOCS2,HCC515,0.5859
+Pyrrolidine Dithiocarbamate,REL,HCC515,0.5166
+Pyrrolidine Dithiocarbamate,RELB,HCC515,0.4648
+Pyrrolidine Dithiocarbamate,SOCS5,HCC515,-0.3952
+Pyrrolidine Dithiocarbamate,TNF,HCC515,0.2418
+Pyrrolidine Dithiocarbamate,STAT5A,HCC515,0.2786
+Pyrrolidine Dithiocarbamate,IKBKAP,HCC515,0.3022
+Pyrrolidine Dithiocarbamate,STAT1,HCC515,0.2982
+Pyrrolidine Dithiocarbamate,IKBKG,HCC515,0.3629
+Rolipram,TNF,HCC515,0.2891
+Rolipram,IL6,HCC515,0.4083
+Rolipram,STAT6,HCC515,0.4548
+Rolipram,IKBKG,HCC515,0.4733
+Rolipram,RELB,HCC515,0.4988
+Rolipram,REL,HCC515,0.4775
+Rolipram,SOCS2,HCC515,-0.6148
+Rolipram,SOCS5,HCC515,0.5005
+Rolipram,STAT3,HCC515,0.4602
+Rolipram,IKBKE,HCC515,0.5491
+Rolipram,STAT1,HCC515,0.4463
+Rolipram,IKBKAP,HCC515,0.3319
+Rolipram,JAK1,HCC515,0.4777
+Rolipram,STAT5A,HCC515,0.2317
+Rolipram,SOCS4,HCC515,0.318

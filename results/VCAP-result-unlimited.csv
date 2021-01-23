@@ -1,36 +1,144 @@
 perturbagen,treatment,cellline,similarity
+Fluoxetine,JAK3,VCAP,0.4777
+Fluoxetine,STAT4,VCAP,-0.4045
+Fluoxetine,STAT2,VCAP,0.4454
+Fluoxetine,STAT3,VCAP,0.22
 Fluoxetine,NFKB2,VCAP,-0.5616
+Fluoxetine,STAT5A,VCAP,0.5222
+Fluoxetine,IKBKAP,VCAP,-0.5096
+Fluoxetine,STAT6,VCAP,0.426
 Fluoxetine,IL6,VCAP,0.6372
+Fluoxetine,IKBKE,VCAP,0.5883
 Fluoxetine,TNF,VCAP,0.2041
+Fluoxetine,SOCS4,VCAP,0.6405
 Fluoxetine,RELB,VCAP,0.5511
 Fluoxetine,IL6ST,VCAP,-0.5362
+Fluoxetine,STAT1,VCAP,0.5336
 Fluoxetine,NFKB1,VCAP,0.5276
+Fluoxetine,JAK2,VCAP,0.2909
+Fluoxetine,JAK1,VCAP,0.5469
+Fluoxetine,IKBKB,VCAP,0.3867
 Fluoxetine,REL,VCAP,0.2122
+Bupropion,JAK1,VCAP,0.4275
 Bupropion,RELB,VCAP,0.2814
 Bupropion,IL6,VCAP,0.3841
+Bupropion,JAK3,VCAP,0.2217
+Bupropion,STAT1,VCAP,-0.2938
+Bupropion,IKBKE,VCAP,0.5225
+Bupropion,STAT2,VCAP,0.6848
+Bupropion,STAT5A,VCAP,0.6159
+Bupropion,SOCS4,VCAP,0.5742
 Bupropion,NFKB2,VCAP,0.6059
+Bupropion,IKBKB,VCAP,0.5527
 Bupropion,IL6ST,VCAP,0.5337
+Bupropion,STAT6,VCAP,0.5305
 Bupropion,NFKB1,VCAP,-0.5066
+Bupropion,STAT4,VCAP,0.5859
+Bupropion,IKBKAP,VCAP,0.5505
+Bupropion,IKBKG,VCAP,0.3845
 Bupropion,REL,VCAP,0.2887
+Bupropion,SOCS5,VCAP,0.2032
+Bupropion,JAK2,VCAP,0.3697
 Bupropion,TNF,VCAP,0.312
-Paroxetine,RELB,VCAP,0.4354
+Paroxetine,SOCS5,VCAP,-0.2784
+Paroxetine,IKBKAP,VCAP,0.4542
+Paroxetine,IKBKG,VCAP,-0.302
 Paroxetine,IL6ST,VCAP,0.5182
+Paroxetine,STAT5A,VCAP,-0.4884
+Paroxetine,IKBKB,VCAP,0.4458
+Paroxetine,STAT4,VCAP,0.4354
+Paroxetine,JAK2,VCAP,0.4107
 Paroxetine,TNF,VCAP,0.3334
+Paroxetine,STAT2,VCAP,0.5014
+Paroxetine,STAT6,VCAP,0.4512
 Paroxetine,NFKB2,VCAP,0.494
 Paroxetine,IL6,VCAP,0.5127
 Paroxetine,REL,VCAP,0.3899
+Paroxetine,JAK3,VCAP,0.6838
+Paroxetine,IKBKE,VCAP,0.627
+Paroxetine,JAK1,VCAP,0.5984
+Paroxetine,SOCS4,VCAP,0.5824
+Paroxetine,RELB,VCAP,0.4951
 Paroxetine,NFKB1,VCAP,0.4696
-Dexamethasone,RELB,VCAP,0.4723
-Dexamethasone,IL6,VCAP,0.5255
+Paroxetine,STAT1,VCAP,0.4494
+Paroxetine,STAT3,VCAP,0.3894
+Dexamethasone,STAT3,VCAP,0.3026
 Dexamethasone,REL,VCAP,0.2687
-Dexamethasone,NFKB2,VCAP,0.6165
-Dexamethasone,IL6ST,VCAP,0.6048
-Dexamethasone,TNF,VCAP,0.4926
-Dexamethasone,NFKB1,VCAP,0.5726
-Chloroquine,IL6,VCAP,0.4573
-Chloroquine,TNF,VCAP,0.5184
+Dexamethasone,IKBKB,VCAP,0.6495
+Dexamethasone,IKBKAP,VCAP,0.6378
+Dexamethasone,STAT4,VCAP,0.6251
+Dexamethasone,STAT6,VCAP,0.5977
+Dexamethasone,IKBKG,VCAP,0.5333
+Dexamethasone,SOCS5,VCAP,0.3895
+Dexamethasone,JAK3,VCAP,0.6518
+Dexamethasone,SOCS4,VCAP,0.7536
+Dexamethasone,NFKB1,VCAP,0.7176
+Dexamethasone,IL6ST,VCAP,-0.6686
+Dexamethasone,NFKB2,VCAP,-0.632
+Dexamethasone,RELB,VCAP,0.5905
+Dexamethasone,STAT1,VCAP,0.7219
+Dexamethasone,IL6,VCAP,0.6942
+Dexamethasone,JAK1,VCAP,0.6347
+Dexamethasone,IKBKE,VCAP,0.6209
+Dexamethasone,STAT5A,VCAP,0.6154
+Dexamethasone,STAT2,VCAP,0.597
+Dexamethasone,TNF,VCAP,0.6275
+Dexamethasone,JAK2,VCAP,0.3388
+Chloroquine,SOCS5,VCAP,0.3802
+Chloroquine,IKBKG,VCAP,0.5961
+Chloroquine,IKBKB,VCAP,0.5464
 Chloroquine,REL,VCAP,0.491
+Chloroquine,JAK2,VCAP,0.3478
+Chloroquine,JAK1,VCAP,0.5242
+Chloroquine,JAK3,VCAP,0.4409
 Chloroquine,NFKB1,VCAP,0.7148
-Chloroquine,IL6ST,VCAP,-0.5574
-Chloroquine,NFKB2,VCAP,-0.5206
 Chloroquine,RELB,VCAP,0.5152
+Chloroquine,SOCS4,VCAP,0.6352
+Chloroquine,IL6,VCAP,0.4629
+Chloroquine,IKBKE,VCAP,0.4591
+Chloroquine,STAT4,VCAP,0.7047
+Chloroquine,IL6ST,VCAP,0.6455
+Chloroquine,STAT6,VCAP,0.6401
+Chloroquine,IKBKAP,VCAP,0.621
+Chloroquine,NFKB2,VCAP,0.6802
+Chloroquine,STAT5A,VCAP,-0.6487
+Chloroquine,STAT1,VCAP,-0.5606
+Chloroquine,TNF,VCAP,0.5541
+Chloroquine,STAT2,VCAP,-0.5223
+Chloroquine,STAT3,VCAP,0.3458
+Pyrrolidine Dithiocarbamate,NFKB1,VCAP,-0.3747
+Pyrrolidine Dithiocarbamate,RELB,VCAP,0.2434
+Pyrrolidine Dithiocarbamate,IKBKAP,VCAP,0.5721
+Pyrrolidine Dithiocarbamate,IKBKB,VCAP,0.5505
+Pyrrolidine Dithiocarbamate,IL6ST,VCAP,0.5061
+Pyrrolidine Dithiocarbamate,NFKB2,VCAP,0.497
+Pyrrolidine Dithiocarbamate,STAT4,VCAP,0.4412
+Pyrrolidine Dithiocarbamate,REL,VCAP,0.4106
+Pyrrolidine Dithiocarbamate,STAT1,VCAP,0.2759
+Pyrrolidine Dithiocarbamate,JAK3,VCAP,0.4405
+Pyrrolidine Dithiocarbamate,JAK1,VCAP,0.3719
+Pyrrolidine Dithiocarbamate,IKBKE,VCAP,0.3007
+Pyrrolidine Dithiocarbamate,SOCS4,VCAP,0.2999
+Pyrrolidine Dithiocarbamate,STAT6,VCAP,0.5191
+Pyrrolidine Dithiocarbamate,STAT5A,VCAP,0.29
+Rolipram,SOCS5,VCAP,0.3268
+Rolipram,TNF,VCAP,0.5696
+Rolipram,JAK2,VCAP,0.4844
+Rolipram,STAT4,VCAP,0.5328
+Rolipram,NFKB1,VCAP,0.7543
+Rolipram,SOCS4,VCAP,0.7412
+Rolipram,STAT1,VCAP,0.6143
+Rolipram,RELB,VCAP,0.6083
+Rolipram,IKBKE,VCAP,0.6039
+Rolipram,JAK1,VCAP,0.577
+Rolipram,IL6ST,VCAP,-0.5447
+Rolipram,IL6,VCAP,0.5348
+Rolipram,NFKB2,VCAP,-0.5285
+Rolipram,STAT6,VCAP,0.5753
+Rolipram,IKBKAP,VCAP,0.5564
+Rolipram,STAT3,VCAP,0.5433
+Rolipram,IKBKB,VCAP,0.5144
+Rolipram,STAT5A,VCAP,0.5078
+Rolipram,IKBKG,VCAP,0.4844
+Rolipram,REL,VCAP,0.4559
+Rolipram,STAT2,VCAP,0.5517

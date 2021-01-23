@@ -1,0 +1,17 @@
+perturbagen,cellline,similarity
+Paroxetine,A375,0.3003
+Fluoxetine,A549,-0.2776
+Chloroquine,A549,0.4212
+Rolipram,A549,0.5027
+Fluoxetine,HA1E,-0.5456
+Dexamethasone,HA1E,-0.427
+Paroxetine,HA1E,-0.4177
+Paroxetine,MCF7,0.2865
+Rolipram,MCF7,0.4622
+Dexamethasone,PC3,0.2604
+Paroxetine,PC3,0.4199
+Chloroquine,PC3,0.4272
+Chloroquine,VCAP,-0.5223
+Paroxetine,VCAP,0.3851
+Rolipram,VCAP,0.5053
+Dexamethasone,VCAP,0.597

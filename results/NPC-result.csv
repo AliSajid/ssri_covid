@@ -1,0 +1,17 @@
+perturbagen,treatment,cellline,similarity
+Fluoxetine,IKBKE,NPC,0.4526
+Fluoxetine,STAT1,NPC,0.3941
+Fluoxetine,RELB,NPC,0.3876
+Bupropion,IKBKE,NPC,0.394
+Bupropion,SOCS2,NPC,0.3918
+Dexamethasone,IKBKG,NPC,0.6172
+Dexamethasone,RELB,NPC,0.5814
+Dexamethasone,STAT1,NPC,0.5811
+Dexamethasone,STAT6,NPC,0.4741
+Chloroquine,SOCS2,NPC,0.5116
+Chloroquine,IKBKG,NPC,-0.5061
+Pyrrolidine Dithiocarbamate,IKBKG,NPC,-0.3929
+Rolipram,IKBKG,NPC,0.636
+Rolipram,RELB,NPC,0.5088
+Rolipram,STAT1,NPC,0.4585
+Rolipram,STAT6,NPC,0.4502
