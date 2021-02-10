@@ -45,7 +45,8 @@ complete <- inner_join(df, metadata, by = c("Source_Signature" = "SignatureId", 
   mutate(perturbagen = if_else(perturbagen == "N-Methylparoxetine", "Paroxetine", perturbagen),
          perturbagen = if_else(perturbagen == "Dexamethasone Acetate", "Dexamethasone", perturbagen),
          perturbagen = if_else(perturbagen == "Dexamethasone 21-Acetate", "Dexamethasone", perturbagen)) %>% 
-  filter(perturbagen %in% drugs)
+  filter(perturbagen %in% drugs) %>% 
+  write_csv("results/complete_matched_table.csv")
 
 filter_data <- function(data, cell_line) {
     dataframe <- data
@@ -70,7 +71,8 @@ filter_data_unlimited <- function(data) {
 
 analysed <- complete %>% 
   group_by(cellline, treatment, perturbagen) %>% 
-  filter(abs(similarity) == max(abs(similarity)))
+  filter(abs(similarity) == max(abs(similarity))) %>% 
+  write_csv("results/complete_matched_maxed_table.csv")
 
 analysed_unlimited <- filter_data_unlimited(complete)
 
