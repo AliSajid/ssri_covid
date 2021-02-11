@@ -49,7 +49,6 @@ for (drug in drug_results) {
     print(paste("Processing concordance for signature:", name))
     concordance <- get_concordant_signatures(drug, library = "LIB_6") %>% 
       filter(treatment %in% genes) %>% 
-#             abs(similarity) > 0.321) %>% 
       mutate(Source_Signature = name)
     write_tsv(concordance, fullname)
   } else {

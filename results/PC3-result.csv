@@ -48,12 +48,3 @@ Dexamethasone,TNF,PC3,0.4728
 Dexamethasone,SOCS5,PC3,0.3752
 Dexamethasone,STAT4,PC3,0.3347
 Dexamethasone,IKBKB,PC3,0.3039
-Chloroquine,NFKB1,PC3,0.5247
-Chloroquine,TNF,PC3,0.4432
-Chloroquine,STAT2,PC3,0.4272
-Chloroquine,STAT3,PC3,0.3203
-Chloroquine,JAK1,PC3,0.3164
-Rolipram,NFKB1,PC3,0.5617
-Rolipram,RELB,PC3,0.4929
-Rolipram,IKBKG,PC3,0.2694
-Rolipram,SOCS4,PC3,0.2386

@@ -5,19 +5,12 @@ Dexamethasone,A375,0.5299
 Fluoxetine,A375,0.5984
 Dexamethasone,HA1E,0.2544
 Paroxetine,HA1E,0.2997
-Chloroquine,HA1E,0.3306
 Fluoxetine,HA1E,0.3446
-Pyrrolidine Dithiocarbamate,HCC515,0.2129
 Dexamethasone,HCC515,0.2372
 Dexamethasone,HEPG2,0.2545
 Dexamethasone,HT29,0.2954
-Pyrrolidine Dithiocarbamate,HT29,0.3827
 Fluoxetine,HT29,0.525
 Paroxetine,HT29,0.5769
-Chloroquine,MCF7,0.3321
-Rolipram,MCF7,0.3458
 Paroxetine,PC3,0.4947
-Chloroquine,VCAP,-0.6487
 Fluoxetine,VCAP,0.3267
-Rolipram,VCAP,0.5025
 Dexamethasone,VCAP,0.6154

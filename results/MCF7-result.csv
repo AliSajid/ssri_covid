@@ -54,34 +54,3 @@ Dexamethasone,SOCS4,MCF7,0.2995
 Dexamethasone,IKBKE,MCF7,0.5781
 Dexamethasone,STAT1,MCF7,0.5553
 Dexamethasone,TNF,MCF7,-0.5013
-Chloroquine,IKBKB,MCF7,0.4071
-Chloroquine,SOCS4,MCF7,0.7477
-Chloroquine,TNF,MCF7,0.7443
-Chloroquine,NFKB1,MCF7,0.4558
-Chloroquine,STAT5A,MCF7,0.3321
-Chloroquine,SOCS5,MCF7,0.3453
-Chloroquine,STAT5B,MCF7,0.3983
-Chloroquine,REL,MCF7,0.4414
-Chloroquine,SOCS2,MCF7,-0.4011
-Chloroquine,IKBKE,MCF7,0.6868
-Chloroquine,STAT1,MCF7,0.5917
-Chloroquine,STAT3,MCF7,0.5608
-Pyrrolidine Dithiocarbamate,REL,MCF7,0.5583
-Pyrrolidine Dithiocarbamate,STAT6,MCF7,0.501
-Pyrrolidine Dithiocarbamate,SOCS2,MCF7,-0.402
-Pyrrolidine Dithiocarbamate,STAT1,MCF7,0.3913
-Pyrrolidine Dithiocarbamate,NFKB1,MCF7,0.3705
-Pyrrolidine Dithiocarbamate,JAK2,MCF7,-0.3406
-Pyrrolidine Dithiocarbamate,RELA,MCF7,-0.3081
-Pyrrolidine Dithiocarbamate,RELB,MCF7,0.2836
-Pyrrolidine Dithiocarbamate,IKBKB,MCF7,0.4015
-Pyrrolidine Dithiocarbamate,STAT3,MCF7,0.4013
-Pyrrolidine Dithiocarbamate,IKBKE,MCF7,0.3789
-Pyrrolidine Dithiocarbamate,NFKB2,MCF7,0.3765
-Rolipram,STAT5A,MCF7,0.3458
-Rolipram,SOCS2,MCF7,0.314
-Rolipram,SOCS5,MCF7,0.252
-Rolipram,TNF,MCF7,0.6122
-Rolipram,SOCS4,MCF7,0.481
-Rolipram,STAT2,MCF7,0.4622
-Rolipram,IKBKE,MCF7,-0.4587

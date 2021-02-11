@@ -1,16 +1,10 @@
 perturbagen,cellline,similarity
 Paroxetine,A375,0.2836
 Fluoxetine,A375,0.3164
-Chloroquine,A549,0.3087
 Paroxetine,HA1E,-0.3429
 Fluoxetine,HA1E,-0.2962
-Rolipram,HA1E,0.2899
-Chloroquine,HA1E,0.394
-Pyrrolidine Dithiocarbamate,HCC515,-0.3952
 Fluoxetine,HCC515,-0.2988
 Dexamethasone,HCC515,0.2331
 Dexamethasone,HT29,0.6058
-Rolipram,MCF7,0.252
 Paroxetine,MCF7,0.2866
-Chloroquine,MCF7,0.3453
 Dexamethasone,PC3,0.3752

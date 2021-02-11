@@ -13,17 +13,3 @@ Dexamethasone,SOCS2,HCC515,-0.2382
 Dexamethasone,IKBKE,HCC515,0.2509
 Dexamethasone,STAT1,HCC515,0.3393
 Dexamethasone,STAT3,HCC515,0.2748
-Chloroquine,REL,HCC515,0.4292
-Chloroquine,RELB,HCC515,0.378
-Chloroquine,SOCS2,HCC515,0.6032
-Pyrrolidine Dithiocarbamate,SOCS2,HCC515,0.5859
-Pyrrolidine Dithiocarbamate,REL,HCC515,0.5166
-Pyrrolidine Dithiocarbamate,RELB,HCC515,0.4648
-Pyrrolidine Dithiocarbamate,SOCS5,HCC515,-0.3952
-Pyrrolidine Dithiocarbamate,STAT1,HCC515,0.2436
-Pyrrolidine Dithiocarbamate,TNF,HCC515,0.2418
-Pyrrolidine Dithiocarbamate,STAT5A,HCC515,0.2129
-Rolipram,REL,HCC515,0.3416
-Rolipram,IL6,HCC515,0.3336
-Rolipram,SOCS2,HCC515,0.5606
-Rolipram,STAT6,HCC515,0.4548

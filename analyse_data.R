@@ -36,8 +36,7 @@ for (i in 1:length(files)) {
 
 df <- reduce(dfs, bind_rows)
 
-drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone", "Chloroquine",
-  "Barictinib", "Pyrrolidine Dithiocarbamate", "Rolipram", "ZINC27645180")
+drugs <- c("Fluoxetine", "Bupropion", "Paroxetine", "Dexamethasone")
 
 complete <- inner_join(df, metadata, by = c("Source_Signature" = "SignatureId", "cellline" = "CellLine")) %>% 
   mutate(Perturbagen = str_to_title(Perturbagen)) %>% 

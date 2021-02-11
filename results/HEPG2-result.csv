@@ -27,13 +27,3 @@ Dexamethasone,NFKB1,HEPG2,0.3255
 Dexamethasone,SOCS1,HEPG2,0.3195
 Dexamethasone,STAT5A,HEPG2,0.2545
 Dexamethasone,IL6R,HEPG2,0.2381
-Chloroquine,JAK1,HEPG2,0.6446
-Chloroquine,IKBKE,HEPG2,0.4987
-Chloroquine,REL,HEPG2,0.4567
-Pyrrolidine Dithiocarbamate,STAT3,HEPG2,0.4003
-Pyrrolidine Dithiocarbamate,IKBKE,HEPG2,-0.3976
-Pyrrolidine Dithiocarbamate,SOCS1,HEPG2,0.3964
-Pyrrolidine Dithiocarbamate,STAT6,HEPG2,0.3899
-Pyrrolidine Dithiocarbamate,TNF,HEPG2,0.3761
-Rolipram,SOCS1,HEPG2,0.5322
-Rolipram,STAT3,HEPG2,0.4616

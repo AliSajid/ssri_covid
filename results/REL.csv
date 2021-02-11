@@ -3,30 +3,21 @@ Paroxetine,A375,0.3609
 Dexamethasone,A375,0.439
 Bupropion,A375,0.5969
 Fluoxetine,A375,0.63
-Rolipram,HA1E,0.3696
-Chloroquine,HA1E,0.5145
 Fluoxetine,HA1E,0.5173
 Dexamethasone,HA1E,0.5174
 Bupropion,HA1E,0.5584
 Paroxetine,HA1E,0.5744
-Rolipram,HCC515,0.3416
-Chloroquine,HCC515,0.4292
-Pyrrolidine Dithiocarbamate,HCC515,0.5166
 Dexamethasone,HEPG2,0.2741
 Paroxetine,HEPG2,0.3347
-Chloroquine,HEPG2,0.4567
 Bupropion,HEPG2,0.5932
 Bupropion,HT29,0.2275
 Paroxetine,HT29,0.313
 Fluoxetine,HT29,0.3278
-Chloroquine,HT29,0.3504
 Dexamethasone,HT29,0.5338
 Bupropion,MCF7,0.2113
 Dexamethasone,MCF7,0.2966
-Chloroquine,MCF7,0.4414
 Paroxetine,MCF7,0.5121
 Fluoxetine,MCF7,0.5272
-Pyrrolidine Dithiocarbamate,MCF7,0.5583
 Dexamethasone,PC3,0.369
 Paroxetine,PC3,0.4403
 Bupropion,PC3,0.4784

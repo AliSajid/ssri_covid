@@ -21,33 +21,6 @@ Bupropion,STAT5A,0.4836
 Bupropion,STAT5B,0.36656666666666665
 Bupropion,STAT6,0.5253
 Bupropion,TNF,-0.30423333333333336
-Chloroquine,IKBKAP,0.4978
-Chloroquine,IKBKB,0.436
-Chloroquine,IKBKE,0.59275
-Chloroquine,IKBKG,0.12286666666666664
-Chloroquine,IL6,0.39275000000000004
-Chloroquine,IL6R,0.362
-Chloroquine,IL6ST,0.6455
-Chloroquine,JAK1,0.248
-Chloroquine,JAK2,0.4457
-Chloroquine,JAK3,0.3251
-Chloroquine,NFKB1,0.4651
-Chloroquine,NFKB2,0.4789
-Chloroquine,REL,0.43844
-Chloroquine,RELA,0.4053
-Chloroquine,RELB,0.3479
-Chloroquine,SOCS1,-0.4088
-Chloroquine,SOCS2,0.2704333333333333
-Chloroquine,SOCS4,0.13240000000000002
-Chloroquine,SOCS5,0.34933333333333333
-Chloroquine,STAT1,0.17763333333333334
-Chloroquine,STAT2,0.10870000000000002
-Chloroquine,STAT3,0.437225
-Chloroquine,STAT4,0.4832666666666667
-Chloroquine,STAT5A,0.004666666666666652
-Chloroquine,STAT5B,0.3983
-Chloroquine,STAT6,0.5436
-Chloroquine,TNF,0.566925
 Dexamethasone,IKBKAP,0.4280333333333334
 Dexamethasone,IKBKB,0.38945
 Dexamethasone,IKBKE,0.4833857142857143
@@ -129,51 +102,3 @@ Paroxetine,STAT5A,0.4478
 Paroxetine,STAT5B,0.3143333333333333
 Paroxetine,STAT6,0.43155
 Paroxetine,TNF,-0.16566666666666666
-Pyrrolidine Dithiocarbamate,IKBKAP,0.4224333333333333
-Pyrrolidine Dithiocarbamate,IKBKB,0.4015
-Pyrrolidine Dithiocarbamate,IKBKE,-0.009349999999999997
-Pyrrolidine Dithiocarbamate,IKBKG,-0.07710000000000002
-Pyrrolidine Dithiocarbamate,IL6ST,0.46125
-Pyrrolidine Dithiocarbamate,JAK2,-0.3406
-Pyrrolidine Dithiocarbamate,NFKB1,0.3705
-Pyrrolidine Dithiocarbamate,NFKB2,0.3765
-Pyrrolidine Dithiocarbamate,REL,0.53745
-Pyrrolidine Dithiocarbamate,RELA,-0.3422
-Pyrrolidine Dithiocarbamate,RELB,0.3742
-Pyrrolidine Dithiocarbamate,SOCS1,0.3312333333333333
-Pyrrolidine Dithiocarbamate,SOCS2,0.1586
-Pyrrolidine Dithiocarbamate,SOCS5,-0.3952
-Pyrrolidine Dithiocarbamate,STAT1,0.3171
-Pyrrolidine Dithiocarbamate,STAT3,0.42896666666666666
-Pyrrolidine Dithiocarbamate,STAT4,0.2646
-Pyrrolidine Dithiocarbamate,STAT5A,0.2978
-Pyrrolidine Dithiocarbamate,STAT5B,0.25
-Pyrrolidine Dithiocarbamate,STAT6,0.39826666666666666
-Pyrrolidine Dithiocarbamate,TNF,0.30895
-Rolipram,IKBKAP,0.36985
-Rolipram,IKBKB,0.3657666666666667
-Rolipram,IKBKE,0.06466
-Rolipram,IKBKG,0.39986666666666665
-Rolipram,IL6,0.387
-Rolipram,IL6R,0.4299
-Rolipram,IL6ST,0.007300000000000029
-Rolipram,JAK1,0.5345333333333333
-Rolipram,JAK2,0.316175
-Rolipram,JAK3,0.07500000000000001
-Rolipram,NFKB1,0.5941
-Rolipram,NFKB2,0.08963333333333334
-Rolipram,REL,0.3556
-Rolipram,RELA,-0.2591
-Rolipram,RELB,0.477375
-Rolipram,SOCS1,0.437875
-Rolipram,SOCS2,0.392825
-Rolipram,SOCS4,0.4238
-Rolipram,SOCS5,0.27095
-Rolipram,STAT1,0.20186666666666667
-Rolipram,STAT2,0.49006666666666665
-Rolipram,STAT3,0.4014
-Rolipram,STAT4,0.3689
-Rolipram,STAT5A,0.42414999999999997
-Rolipram,STAT5B,0.3291
-Rolipram,STAT6,0.5095999999999999
-Rolipram,TNF,0.47735

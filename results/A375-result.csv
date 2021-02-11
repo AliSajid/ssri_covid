@@ -58,22 +58,3 @@ Dexamethasone,STAT5B,A375,0.2809
 Dexamethasone,STAT1,A375,0.3237
 Dexamethasone,REL,A375,0.439
 Dexamethasone,RELB,A375,0.2979
-Chloroquine,JAK2,A375,0.703
-Chloroquine,RELA,A375,0.3406
-Pyrrolidine Dithiocarbamate,STAT3,A375,0.4853
-Pyrrolidine Dithiocarbamate,IL6ST,A375,0.4687
-Pyrrolidine Dithiocarbamate,IKBKAP,A375,0.3481
-Pyrrolidine Dithiocarbamate,STAT1,A375,0.3217
-Pyrrolidine Dithiocarbamate,STAT6,A375,0.3039
-Pyrrolidine Dithiocarbamate,SOCS2,A375,0.2919
-Rolipram,NFKB1,A375,0.4663
-Rolipram,IL6,A375,0.4283
-Rolipram,JAK1,A375,0.3884
-Rolipram,TNF,A375,0.4646
-Rolipram,SOCS1,A375,0.4168
-Rolipram,SOCS4,A375,0.3821
-Rolipram,STAT4,A375,0.3668
-Rolipram,IKBKAP,A375,0.2819
-Rolipram,IKBKE,A375,0.2145
-Rolipram,JAK3,A375,-0.2193
-Rolipram,RELB,A375,0.2995

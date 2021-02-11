@@ -8,10 +8,3 @@ Dexamethasone,IKBKG,NPC,0.6172
 Dexamethasone,RELB,NPC,0.5814
 Dexamethasone,STAT1,NPC,0.5811
 Dexamethasone,STAT6,NPC,0.4741
-Chloroquine,SOCS2,NPC,0.5116
-Chloroquine,IKBKG,NPC,-0.5061
-Pyrrolidine Dithiocarbamate,IKBKG,NPC,-0.3929
-Rolipram,IKBKG,NPC,0.636
-Rolipram,RELB,NPC,0.5088
-Rolipram,STAT1,NPC,0.4585
-Rolipram,STAT6,NPC,0.4502

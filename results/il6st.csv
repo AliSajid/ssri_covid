@@ -1,16 +1,13 @@
 perturbagen,cellline,similarity
 Bupropion,A375,0.3677
 Paroxetine,A375,0.4426
-Pyrrolidine Dithiocarbamate,A375,0.4687
 Dexamethasone,A375,0.6132
 Fluoxetine,A375,0.7982
 Dexamethasone,A549,0.4371
 Paroxetine,A549,0.5236
-Rolipram,A549,0.5593
 Bupropion,A549,0.6458
 Fluoxetine,HA1E,0.2262
 Paroxetine,HA1E,0.3597
-Pyrrolidine Dithiocarbamate,HA1E,0.4538
 Dexamethasone,HCC515,0.2196
 Paroxetine,HCC515,0.3616
 Dexamethasone,HEPG2,0.4554
@@ -21,5 +18,3 @@ Dexamethasone,HT29,0.293
 Bupropion,MCF7,-0.3242
 Paroxetine,MCF7,-0.2591
 Dexamethasone,VCAP,-0.6686
-Rolipram,VCAP,-0.5447
-Chloroquine,VCAP,0.6455

@@ -41,23 +41,3 @@ Dexamethasone,SOCS4,HT29,0.6173
 Dexamethasone,SOCS5,HT29,0.6058
 Dexamethasone,STAT6,HT29,0.5842
 Dexamethasone,REL,HT29,0.5338
-Chloroquine,STAT6,HT29,0.4471
-Chloroquine,IKBKAP,HT29,0.3746
-Chloroquine,REL,HT29,0.3504
-Chloroquine,SOCS4,HT29,0.2795
-Chloroquine,SOCS2,HT29,0.2489
-Pyrrolidine Dithiocarbamate,IKBKAP,HT29,0.4449
-Pyrrolidine Dithiocarbamate,STAT5A,HT29,0.3827
-Pyrrolidine Dithiocarbamate,STAT1,HT29,0.3118
-Pyrrolidine Dithiocarbamate,SOCS1,HT29,0.2934
-Pyrrolidine Dithiocarbamate,STAT4,HT29,0.2646
-Pyrrolidine Dithiocarbamate,STAT5B,HT29,0.25
-Pyrrolidine Dithiocarbamate,IKBKG,HT29,0.2387
-Rolipram,JAK2,HT29,0.3144
-Rolipram,IKBKB,HT29,0.3415
-Rolipram,SOCS1,HT29,0.2932
-Rolipram,STAT4,HT29,0.4001
-Rolipram,STAT6,HT29,0.5699
-Rolipram,IKBKE,HT29,-0.5552
-Rolipram,SOCS4,HT29,0.4747
-Rolipram,STAT1,HT29,-0.4672
