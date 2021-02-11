@@ -22,7 +22,6 @@ process: process_signatures.R
 
 analyse: analyse_data.R
 	Rscript analyse_data.R
-	Rscript analyse_data_2.R
 
 visualise: figure*.R
 	Rscript figure1.R
