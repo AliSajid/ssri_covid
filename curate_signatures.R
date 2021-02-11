@@ -31,7 +31,8 @@ for (i in 1:length(drugs_list)) {
 cell_lines <- reduce(selected_lines, union)
 
 drugs <- bind_rows(fluoxetine, bupropion, paroxetine, dexa) %>% 
-  filter(CellLine %in% cell_lines)
+  filter(CellLine %in% cell_lines) %>% 
+  write_csv("signature_data/source_signature_metadata.csv")
 
 write_file(paste(drugs$SignatureId, collapse = "\n"), "drugs_signature_ids")
 
