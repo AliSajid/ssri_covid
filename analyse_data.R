@@ -96,7 +96,8 @@ write_csv(all_results, "results/all_results.csv")
 
 all_averaged <- all_results %>% 
   group_by(perturbagen, treatment) %>% 
-  summarise(mean_similarity = mean(similarity))
+  summarise(mean_similarity = mean(similarity),
+            sd_similarity = sd(similarity))
 
 write_csv(all_averaged, "results/all_averaged.csv")
 
