@@ -1,6 +1,6 @@
 # COVID-19/IL-6 Project
 
-[![DOI](https://zenodo.org/badge/257913143.svg)](https://zenodo.org/badge/latestdoi/257913143)
+[![DOI](https://zenodo.org/badge/254979113.svg)](https://zenodo.org/badge/latestdoi/254979113)
 
 
 ## Introduction
