@@ -13,7 +13,7 @@ You can quickly generate the data and results with minimal intervention. It help
 
 ```bash
 # Clone the repository
-git clone https://github.com/AliSajid/ssri_il6.git
+git clone https://github.com/AliSajid/ssri_covid.git
 
 # Run the analysis
 make
